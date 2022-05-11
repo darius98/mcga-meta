@@ -14,6 +14,6 @@ install(DIRECTORY include DESTINATION .)
 
 if (MCGA_meta_tests)
     add_executable(mcga_meta_test
-            tests/manual_lifetime_test.cpp)
+            tests/tpack_test.cpp)
     target_link_libraries(mcga_meta_test mcga_test mcga_meta)
 endif ()
