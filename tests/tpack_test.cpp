@@ -1,4 +1,4 @@
-#include "mcga/meta/tpack.hpp"
+#include "mcga/meta.hpp"
 
 #include <mcga/test.hpp>
 
